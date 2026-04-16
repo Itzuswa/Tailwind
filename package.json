@@ -1,0 +1,13 @@
+{
+  "name": "tailwindtut",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css",
+    "watch:css": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.0",
+    "@tailwindcss/cli": "^1.0.0"
+  }
+}
